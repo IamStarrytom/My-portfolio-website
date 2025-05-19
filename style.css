@@ -1,0 +1,241 @@
+/* Basic Reset and Box Sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #003366; /* Futuristic Blues: Dark Grey */
+    color:#6c5ce7;
+}
+h1, h2, h3 {
+    color: #003366;
+}
+
+
+/* Hero Section */
+#hero {
+     margin-top: 2.7rem;
+     margin-bottom:0.3rem;
+     border: 0.1rem solid gold;
+     border-radius: 2rem ;
+     text-align: center;
+     background-color: #A9A9A9;
+  }
+
+
+#hero .a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.4rem;
+    margin-bottom: 0.3rem;
+    background-color: ; #003366; 
+    }
+
+#hero .a img {
+    border-radius: 70%;
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0.3rem 0.3rem ;
+}
+.hero-font h1 {
+    background-color: #A9A9A9; /* Sky Blue for the button */
+    color: #003366; 
+    border: 0.1rem solid gold;
+    box-shadow: 0px 8px 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;         /* OR use width: 100% */
+    width: 100%;
+    z-index: 999;  ;
+    text-align: center;
+    border-radius: 0.3rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hero-font p {
+    font-size: 22px;
+    color: #003366;
+    font-weight: bold;
+    text-align: center;
+    border: 0.1rem solid gold;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 20px;
+    box-shadow:0 0.3rem 0.3rem;
+    font-family: Georgia, Times, serif;
+}
+#hero h2:hover {
+background-color: #003366;
+    color: #A9A9A9
+}
+#hero h2 {
+    display: inline-block;
+    color: #003366; 
+    padding: 10px ;
+    border: 0.1rem solid gold;
+    box-shadow: 0px 8px 8px;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 15px ;
+}
+
+.quote {
+    display:inline-block;
+    align-items: center;
+    box-shadow:0 4px 4px 4px;
+    background-color:#F7DC6F ;
+    color:#003366;
+    border: 0.9rem inset solid gold ;
+    padding: 1rem ;
+    border-radius: 0.3rem ;
+    font-size:1.1rem;
+    font-weight:bold;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+/* Services Section */
+#services {
+    background-color: #A9A9A9; /* Slightly lighter dark grey */
+    padding: 40px 0px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    border-radius: 40px;
+    border: 0.1rem solid gold;
+    width: 100%;
+}
+.custom-container img {
+    width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover; 
+}
+
+#services h2:hover {
+background-color: #A9A9A9;
+    color: #003366;
+}
+#services h2{
+    background-color: #A9A9A9; /* Sky Blue for the button */
+    color: #003366; 
+    padding: 0.5rem ;
+    border: 0.1rem solid gold;
+    box-shadow: 0px 8px 8px;
+    margin-left: 0.6rem ;
+    margin-right: 0.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.service-item {
+    background-color: #003366;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 8px;
+    border: 1px solid gold;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 8px 
+}
+
+.service-item h3 {
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #00FFFF;
+    opacity: 0.8;
+}
+.app-container img{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover; 
+  filter: brightness(70%);
+  border-radius: 8px;
+}
+
+.service-item h4 {
+    color: #00FFFF;
+    padding-top: 10px;
+    font-size: 21px ;
+    opacity: 0.8;
+}
+.service-item p  {
+    color: #A9A9A9;
+    font-size: 20px;
+    list-style-position: inside;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #A9A9A9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.portfolio-item {
+    background-color: #A9A9A9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 8px ;
+    border: 2px solid gold;
+}
+
+.portfolio-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    border: 1px solid gold;
+}
+
+.portfolio-item p {
+    color: #ccc;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #333;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #111; /* Even darker grey */
+    color: #ddd;
+    text-align: center;
+    padding: 0px;
+    font-size: 0.9rem;
+}
+ç
