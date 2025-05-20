@@ -110,6 +110,8 @@ background-color: #003366;
   display: block;
   margin: 0 auto;
   object-fit: cover; 
+  filter: brightness(80%);
+  border-radius: 8px;
 }
 #services h2:hover {
 background-color: #A9A9A9;
