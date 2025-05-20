@@ -8,13 +8,12 @@ body {
     font-family: sans-serif;
     background-color: #003366; 
     color:#6c5ce7;
-    margin:0;
 }
 h1, h2, h3 {
     color: #003366;
 }
 #hero {
-     margin-top: 1rem;
+     margin-top: 2.6rem;
      margin-bottom:0.3rem;
      border: 0.1rem solid gold;
      border-radius: 2rem ;
