@@ -1,5 +1,6 @@
 /* Basic Reset and Box Sizing */
  ::before, ::after {
+  box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -7,6 +8,7 @@ body {
     font-family: sans-serif;
     background-color: #003366; 
     color:#6c5ce7;
+    margin:0;
 }
 h1, h2, h3 {
     color: #003366;
