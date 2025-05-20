@@ -59,6 +59,8 @@ h1, h2, h3 {
     border: 0.1rem solid gold;
     border-radius: 1rem;
     margin-bottom: 0.5rem;
+    margin-right:0.5rem;
+    margin-left:0.5rem;
     padding: 20px;
     box-shadow:0 0.3rem 0.3rem;
     font-family: Georgia, Times, serif;
