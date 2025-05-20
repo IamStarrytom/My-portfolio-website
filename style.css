@@ -8,6 +8,7 @@ body {
     font-family: sans-serif;
     background-color: #003366; 
     color:#6c5ce7;
+    margin:0.3rem;
 }
 h1, h2, h3 {
     color: #003366;
